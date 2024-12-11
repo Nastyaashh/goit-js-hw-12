@@ -16,3 +16,114 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.loader {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.photo-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 360px;
+  min-height: 200px;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info {
+  padding: 10px;
+  background: #f4f4f4;
+  font-size: 14px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.gallery__item {
+  width: 360px;
+  min-height: 200px;
+}
+
+.form-text {
+  border-radius: 4px;
+  border-color: #808080;
+  width: 272px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #808080;
+  padding-left: 16px;
+}
+
+.form-text:hover,
+.form-text:focus {
+  border-color: #6c8cff;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  width: 85px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  width: 125px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 44px;
+}
+
+.btn-first {
+  border: none;
+  border-radius: 8px;
+  width: 85px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  width: 125px;
+  height: 40px;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #6c8cff;
+}
+
+.btn-first:focus,
+.btn-first:hover {
+  background-color: #6c8cff;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
